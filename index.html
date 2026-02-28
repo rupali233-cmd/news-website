@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TRIONE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="top-header">
+    <h1>TRIONE</h1>
+    <p class="tagline">Truth • Facts • Stories</p>
+  </header>
+
+  <nav class="navbar">
+    <button onclick="filterNews('All')">Home</button>
+    <button onclick="filterNews('Technology')">Technology</button>
+    <button onclick="filterNews('Sports')">Sports</button>
+    <button onclick="filterNews('World')">World</button>
+  </nav>
+
+  <main class="layout">
+    <section class="main-news" id="news-container"></section>
+    <aside class="sidebar">
+      <h2>Trending</h2>
+      <ul>
+        <li>📈 Market hits new high</li>
+        <li>🌍 Climate summit updates</li>
+        <li>⚽ Big match tonight</li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <p>© 2026 TRIONE</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
